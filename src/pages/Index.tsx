@@ -13,7 +13,7 @@ const Index = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Icon name="HardHat" size={32} className="text-primary" />
-              <span className="text-2xl font-bold text-secondary">РемСтрой</span>
+              <span className="text-2xl font-bold text-secondary">ОтделСтрой</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-gray-600 hover:text-primary transition-colors">Услуги</a>
@@ -433,7 +433,7 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold text-secondary mb-6">О компании</h2>
               <p className="text-lg text-gray-600 mb-6">
-                "РемСтрой" - ведущая строительно-ремонтная компания в Вологде с опытом работы более 10 лет. 
+                "ОтделСтрой" - ведущая строительно-ремонтная компания в Вологде с опытом работы более 11 лет. 
                 Мы специализируемся на комплексном ремонте жилых и коммерческих помещений.
               </p>
               <div className="space-y-4 mb-8">
@@ -443,7 +443,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-secondary">Профессиональная команда</h4>
-                    <p className="text-gray-600">25+ опытных мастеров и инженеров</p>
+                    <p className="text-gray-600">12 опытных мастеров и инженеров</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -460,7 +460,7 @@ const Index = () => {
                     <Icon name="Clock" size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-secondary">10+ лет опыта</h4>
+                    <h4 className="font-semibold text-secondary">11+ лет опыта</h4>
                     <p className="text-gray-600">На рынке строительных услуг</p>
                   </div>
                 </div>
@@ -468,12 +468,12 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop" 
-                alt="Наша команда"
+                src="https://cdn.poehali.dev/files/31f775c9-05a5-477e-9044-198f447c4606.png" 
+                alt="Руководитель компании ОтделСтрой"
                 className="w-full rounded-lg shadow-lg"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-lg shadow-lg">
-                <div className="text-3xl font-bold">10+</div>
+                <div className="text-3xl font-bold">11+</div>
                 <div className="text-sm opacity-90">лет опыта</div>
               </div>
             </div>
@@ -560,10 +560,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Icon name="HardHat" size={32} className="text-primary" />
-              <span className="text-2xl font-bold">РемСтрой</span>
+              <span className="text-2xl font-bold">ОтделСтрой</span>
             </div>
             <div className="text-center md:text-right">
-              <p className="mb-2">© 2024 РемСтрой. Все права защищены.</p>
+              <p className="mb-2">© 2024 ОтделСтрой. Все права защищены.</p>
               <p className="text-sm opacity-75">Лицензия на строительную деятельность №12345</p>
             </div>
           </div>
