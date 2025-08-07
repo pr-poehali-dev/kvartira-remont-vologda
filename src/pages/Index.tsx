@@ -13,7 +13,7 @@ const Index = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Icon name="HardHat" size={32} className="text-primary" />
-              <span className="text-2xl font-bold text-secondary">ОтделСтрой</span>
+              <span className="text-2xl font-bold text-secondary">УнасРемонт</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-gray-600 hover:text-primary transition-colors">Услуги</a>
