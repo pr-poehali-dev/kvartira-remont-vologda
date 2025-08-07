@@ -218,29 +218,113 @@ const Index = () => {
             <p className="text-xl text-gray-600">Более 78 успешно завершённых проектов</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <Card key={item} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <img 
-                  src={`https://images.unsplash.com/photo-${item % 2 === 0 ? '1581858726788-75bc0f6a952d' : '1562259949-e8e7689d7828'}?w=400&h=300&fit=crop`}
-                  alt={`Проект ${item}`}
-                  className="w-full h-48 object-cover"
-                />
-                <CardContent className="p-4">
-                  <h3 className="text-lg font-semibold mb-2">Проект #{item}</h3>
-                  <p className="text-gray-600 text-sm mb-3">
-                    {item % 3 === 0 ? 'Капитальный ремонт квартиры' : 
-                     item % 3 === 1 ? 'Отделка офисного помещения' : 
-                     'Ремонт складского комплекса'}
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <Badge variant="secondary">
-                      {item % 3 === 0 ? '85 м²' : item % 3 === 1 ? '120 м²' : '450 м²'}
-                    </Badge>
-                    <span className="text-green-600 font-semibold text-sm">Завершён</span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/files/be541923-eec0-4892-9282-6c30677605b2.jpg"
+                alt="Ремонт кухни-студии"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Кухня-студия</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Современная кухня с барной стойкой и интегрированной техникой
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">25 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/files/e0a90897-5878-4cec-8305-e8bc6d6f741b.jpg"
+                alt="Ремонт ванной комнаты"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Ванная с мраморной плиткой</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Элитная отделка натуральным мрамором и современная сантехника
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">8 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/files/56a3e6e9-d4d0-4862-808d-bc97d4fb653e.jpg"
+                alt="Отделка гостиной"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Гостиная в загородном доме</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Уютная гостиная с деревянными балками и панорамными окнами
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">45 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/files/47ec825c-0911-4048-ba76-571f866f172b.jpeg"
+                alt="Промышленный пол в гараже"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Полимерные полы в гараже</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Прочное покрытие для автосервиса с противоскользящим эффектом
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">180 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="/img/867f9804-5d75-4eab-aa5b-2612ffca4cd6.jpg"
+                alt="Ремонт офисного помещения"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Офисное помещение</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Комплексная отделка офиса с современными материалами
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">120 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <img 
+                src="/img/d364c1e6-f643-4bfb-b471-6bfc494a0cee.jpg"
+                alt="Складское помещение"
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-4">
+                <h3 className="text-lg font-semibold mb-2">Складской комплекс</h3>
+                <p className="text-gray-600 text-sm mb-3">
+                  Промышленное покрытие пола и электромонтажные работы
+                </p>
+                <div className="flex justify-between items-center">
+                  <Badge variant="secondary">850 м²</Badge>
+                  <span className="text-green-600 font-semibold text-sm">Завершён</span>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
