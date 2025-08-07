@@ -292,17 +292,17 @@ const Index = () => {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <img 
-                src="/img/867f9804-5d75-4eab-aa5b-2612ffca4cd6.jpg"
-                alt="Ремонт офисного помещения"
+                src="https://cdn.poehali.dev/files/684d02c2-8f97-4150-bdfd-a14ad43612c5.jpg"
+                alt="Офисное помещение под ключ"
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Офисное помещение</h3>
+                <h3 className="text-lg font-semibold mb-2">Офисное помещение под ключ</h3>
                 <p className="text-gray-600 text-sm mb-3">
-                  Комплексная отделка офиса с современными материалами
+                  Полная отделка офиса с мебелью, подвесными потолками и системами климат-контроля
                 </p>
                 <div className="flex justify-between items-center">
-                  <Badge variant="secondary">120 м²</Badge>
+                  <Badge variant="secondary">160 м²</Badge>
                   <span className="text-green-600 font-semibold text-sm">Завершён</span>
                 </div>
               </CardContent>
@@ -310,17 +310,17 @@ const Index = () => {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <img 
-                src="/img/d364c1e6-f643-4bfb-b471-6bfc494a0cee.jpg"
-                alt="Складское помещение"
+                src="https://cdn.poehali.dev/files/d6041e81-2876-4060-8628-026efabbc5eb.jpg"
+                alt="Производственный склад"
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Складской комплекс</h3>
+                <h3 className="text-lg font-semibold mb-2">Производственный склад</h3>
                 <p className="text-gray-600 text-sm mb-3">
-                  Промышленное покрытие пола и электромонтажные работы
+                  Большой складской комплекс с бетонными полами и промышленным освещением
                 </p>
                 <div className="flex justify-between items-center">
-                  <Badge variant="secondary">850 м²</Badge>
+                  <Badge variant="secondary">1500 м²</Badge>
                   <span className="text-green-600 font-semibold text-sm">Завершён</span>
                 </div>
               </CardContent>
