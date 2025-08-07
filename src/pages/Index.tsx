@@ -220,17 +220,17 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/files/be541923-eec0-4892-9282-6c30677605b2.jpg"
-                alt="Ремонт кухни-студии"
+                src="https://cdn.poehali.dev/files/10595211-e21a-400b-8c3c-f7875381e0f3.jpg"
+                alt="Ремонт офисного помещения"
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Кухня-студия</h3>
+                <h3 className="text-lg font-semibold mb-2">Офисное помещение</h3>
                 <p className="text-gray-600 text-sm mb-3">
-                  Современная кухня с барной стойкой и интегрированной техникой
+                  Современный офис с подвесными потолками и системой кондиционирования
                 </p>
                 <div className="flex justify-between items-center">
-                  <Badge variant="secondary">25 м²</Badge>
+                  <Badge variant="secondary">180 м²</Badge>
                   <span className="text-green-600 font-semibold text-sm">Завершён</span>
                 </div>
               </CardContent>
@@ -238,17 +238,17 @@ const Index = () => {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/files/e0a90897-5878-4cec-8305-e8bc6d6f741b.jpg"
-                alt="Ремонт ванной комнаты"
+                src="https://cdn.poehali.dev/files/1ea6fab6-db46-4b4f-86cc-65743dc043f3.jpg"
+                alt="Складской комплекс"
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Ванная с мраморной плиткой</h3>
+                <h3 className="text-lg font-semibold mb-2">Складской комплекс</h3>
                 <p className="text-gray-600 text-sm mb-3">
-                  Элитная отделка натуральным мрамором и современная сантехника
+                  Промышленный склад с бетонными полами и системой освещения
                 </p>
                 <div className="flex justify-between items-center">
-                  <Badge variant="secondary">8 м²</Badge>
+                  <Badge variant="secondary">1200 м²</Badge>
                   <span className="text-green-600 font-semibold text-sm">Завершён</span>
                 </div>
               </CardContent>
