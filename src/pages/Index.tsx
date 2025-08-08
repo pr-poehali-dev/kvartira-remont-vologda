@@ -37,7 +37,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-primary text-white px-6 py-2 rounded-lg inline-block mb-6 font-bold text-lg">
-                РЕМОНТ КВАРТИР, ОФИСОВ, СКЛАДСКИХ ПОМЕЩЕНИЙ ПОД КЛЮЧ!
+                РЕМОНТ КВАРТИР, ОФИСОВ, СКЛАДСКИХ ПОМЕЩЕНИЙ ПОД КЛЮЧ В ВОЛОГДЕ!
               </div>
               <h1 className="text-5xl font-bold mb-6">
                 БОЛЕЕ 78 ВЫПОЛНЕННЫХ ПРОЕКТОВ
@@ -47,7 +47,7 @@ const Index = () => {
                   СКИДКА 15% ДЛЯ ПЕРВЫХ КЛИЕНТОВ!
                 </h2>
                 <p className="text-primary text-xl font-semibold">
-                  РЕМОНТ КВАРТИР, ОФИСОВ, СКЛАДСКИХ ПОМЕЩЕНИЙ ПОД КЛЮЧ!
+                  РЕМОНТ КВАРТИР, ОФИСОВ, СКЛАДСКИХ ПОМЕЩЕНИЙ ПОД КЛЮЧ В ВОЛОГДЕ!
                 </p>
               </div>
               <div className="space-y-4 mb-8">
@@ -469,7 +469,7 @@ const Index = () => {
             <div className="relative">
               <img 
                 src="https://cdn.poehali.dev/files/31f775c9-05a5-477e-9044-198f447c4606.png" 
-                alt="Руководитель компании ОтделСтрой"
+                alt="Руководитель компании УнасРемонт"
                 className="w-full rounded-lg shadow-lg"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-lg shadow-lg">
