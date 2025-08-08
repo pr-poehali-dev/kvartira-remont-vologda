@@ -507,7 +507,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-secondary">Адрес</h4>
-                    <p className="text-gray-600">г. Вологда, ул. Гагарина, 82а</p>
+                    <p className="text-gray-600">г. Вологда, ул. Самойло, 12</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -560,10 +560,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Icon name="HardHat" size={32} className="text-primary" />
-              <span className="text-2xl font-bold">ОтделСтрой</span>
+              <span className="text-2xl font-bold">УнасРемонт</span>
             </div>
             <div className="text-center md:text-right">
-              <p className="mb-2">© 2024 ОтделСтрой. Все права защищены.</p>
+              <p className="mb-2">© 2024 УнасРемонт. Все права защищены.</p>
               <p className="text-sm opacity-75">Лицензия на строительную деятельность №12345</p>
             </div>
           </div>
